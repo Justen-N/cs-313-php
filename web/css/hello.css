@@ -5,7 +5,8 @@
  *, *:before, *:after{
      box-sizing: inherit;
  }
- p{
+
+body{
      -webkit-animation:Font 15s
      infinite alternate;
      @-webkit-keyframes Font{
