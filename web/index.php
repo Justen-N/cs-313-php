@@ -1,62 +1,31 @@
-<?php
 
-  phpinfo();
-  
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Focused weather for users location" >
+    <meta name="description" content="Homepage for a student development course" >
     
-    <title>Current Weather | The Weather Site</title>
+    <title>313 Home</title>
 </head>
-<!--Collaboration: Justen Neeley, Kiana Steadman, Diana Hays  -->
 <body>
+<main>
+  <section>
+  <h1>Justen Neeley</h1>
+  <p> I spend most of my time split between computer screens and diapers. 
+    At least, it certainly feels that way. When I'm not wrestling my two sons or the latest coding project 
+   I've assigned myself, I enjoy reading, bicycling, and gaming, both board and video. </p>
 
-    <p id= "status" class ="show"></p>
-    <main id = "main" class = "hide">
-        <h1 id="commonName">
-           
-        </h1>
-        <div id="location">
-            <b>Zip:</b>
-            <p id ="zip">83237</p>
-            <b>Elevation: </b>
-            <p id="elevation">4968</p> 
-            <b>Location:</b>
-            <p id= "coords">42.07, 111.79</p>
-        </div>
-        <div id="flex-container">
-            <section id="temps" class="tile">
-                <h2 class="hidden">
-                    Temperature
-                </h2>
-                <p id="current-temp">55&deg;F</p>
-                <div>
-                    <p id="high-temp">64F </p>
-                    <p id="low-temp">41F</p>
-                </div>
-                <p id = "feel"></p>
-            </section>
-            <section id="wind" class="tile">
-                <h2 class="hidden">Wind</h2>
-                <p><b>N</b></p>
-                <div id= "pointer" class = "nw"></div>
-                <p id ="windspeed">5 mph</p>
-                <p id = "direction"></p>
-                <p id ="gust"></p>
-            </section>
-            <section id="conditions" class="tile">
-                <h2 id= "condition"> Rain </h2>
-                <div id = "weather_img"></div>
-            </section>
-        </div>
-        
-    </main>
+</section>
+<h2>The Neeley's </h2>
+  <div>
+  <picture>
+
+</picture>
+  </div>
+
+</main>
     
 </body>
 </html>
