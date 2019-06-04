@@ -18,14 +18,16 @@
    I've assigned myself, I enjoy reading, bicycling, and gaming, both board and video. </p>
 
 </section>
-<h2>The Neeley's </h2>
+<h2> My Boys </h2>
   <div>
   <picture>
-
+    <source srcset= "/assets/me_and_the_boys.jpg" >
+    <img src="/assets/me_and_the_boys.jpg" alt="Tom and Connor on Dad">
 </picture>
   </div>
 
 </main>
-    
+
+<?php echo date("D M d, Y G:i a"); ?>
 </body>
 </html>
