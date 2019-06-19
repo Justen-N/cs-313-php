@@ -21,8 +21,8 @@
 <h2> My Boys </h2>
   <div>
   <picture>
-    <source srcset= "../assets/me_and_the_boys.jpg" >
-    <img src="../assets/me_and_the_boys.jpg" alt="Tom and Connor on Dad">
+    <source srcset= "assets/me_and_the_boys.jpg" >
+    <img src="assets/me_and_the_boys.jpg" alt="Tom and Connor on Dad">
 </picture>
   </div>
 
